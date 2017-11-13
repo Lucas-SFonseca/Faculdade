@@ -69,7 +69,7 @@ CREATE TABLE Faculdade.Matricula (
 	Id_Ofertada INT NOT NULL,				
 	Id_Turma INT NOT NULL,			
 		
-	CONSTRAINT pkMatricula PRIMARY KEY (Id_Turma),
+	CONSTRAINT pkMatricula PRIMARY KEY (Id_Matricula),
 );
 
 CREATE TABLE Faculdade.Curso (
